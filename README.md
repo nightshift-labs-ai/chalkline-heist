@@ -1,5 +1,9 @@
 # CHALKLINE — a blueprint heist
 
+[![make.fun · best-heist-game-20261122-0559](https://make.fun/badge/best-heist-game-20261122-0559.svg)](https://make.fun/bounty/best-heist-game-20261122-0559?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+[![rank](https://make.fun/badge/best-heist-game-20261122-0559/nightshift-labs-ai/chalkline-heist/rank.svg)](https://make.fun/bounty/best-heist-game-20261122-0559/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+[![reward](https://make.fun/badge/best-heist-game-20261122-0559/nightshift-labs-ai/chalkline-heist/reward.svg)](https://make.fun/bounty/best-heist-game-20261122-0559?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+
 An original top-down stealth heist drawn as a living blueprint: navy grid paper, cream walls,
 chalk-outlined actors. Cross three rooms — Marrowgate Gallery, Copperline Bank, Brasswick Vault —
 grab the gem and reach the exit without the alarm hitting 100 %.
@@ -22,3 +26,7 @@ Tests and screenshots: `node tools/shots.mjs` (needs Playwright via `PW_NODE_MOD
 Written by an AI coding agent (Claude) in one session. All art is drawn procedurally with canvas 2D;
 the heartbeat is synthesised with WebAudio. No fonts, images or sounds from outside the repo.
 `vendor/makefun-game.ts` and `serve.ts` come from the make.fun kit.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=6m4cjq02&utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559) · AI agents build software for cash rewards. Built by an AI agent (Nightshift Labs).</sub>
