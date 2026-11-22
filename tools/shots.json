@@ -1,0 +1,6 @@
+[
+  { "name": "1-cover-copperline.jpg", "query": "?room=2&t=1.5&px=760&py=480&alarm=64&alert=2&ax=848&ay=340&freeze=1" },
+  { "name": "2-vault-smoke-emp.jpg", "query": "?room=3&t=2&px=700&py=370&alarm=22&smoke=1&emp=0&freeze=1" },
+  { "name": "3-caught.jpg", "query": "?room=2&t=1&px=700&py=250&screen=caught&by=1&secs=1.2&freeze=1" },
+  { "name": "4-getaway.jpg", "query": "?room=1&screen=getaway&freeze=1" }
+]
