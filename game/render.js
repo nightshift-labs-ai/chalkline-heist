@@ -112,10 +112,10 @@ function drawLoot(ctx, state, t) {
 export function drawCone(ctx, state, v, color, alpha = 0.32) {
   const pts = coneFan(state, v);
   const g = ctx.createRadialGradient(v.x, v.y, 10, v.x, v.y, v.range);
-  g.addColorStop(0, withAlpha(color, alpha + 0.15)); g.addColorStop(1, withAlpha(color, alpha * 0.45));
+  g.addColorStop(0, withAlpha(color, alpha + 0.3)); g.addColorStop(1, withAlpha(color, alpha * 0.6));
   ctx.beginPath(); pts.forEach(([x, y], i) => (i ? ctx.lineTo(x, y) : ctx.moveTo(x, y))); ctx.closePath();
-  ctx.fillStyle = g; ctx.fill();
-  ctx.strokeStyle = color; ctx.lineWidth = 2; ctx.stroke();
+  ctx.save(); ctx.globalCompositeOperation = 'lighter'; ctx.fillStyle = g; ctx.fill(); ctx.restore();
+  ctx.strokeStyle = color; ctx.lineWidth = 3; ctx.stroke();
 }
 
 function drawSmokes(ctx, smokes, t) {
