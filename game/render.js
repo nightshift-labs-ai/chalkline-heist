@@ -188,7 +188,7 @@ export function drawScene(ctx, state) {
   for (const g of state.guards) drawTag(ctx, g.id, g.x, g.y + 36, g.alert > 0 ? COLORS.alertCone : COLORS.guard);
   const p = state.player;
   drawTag(ctx, p.inShadow ? 'HIDDEN' : p.inVent ? 'IN VENT' : 'YOU', p.x, p.y - 44, p.inShadow || p.inVent ? '#7dffb2' : COLORS.thief);
-  drawTag(ctx, 'VENT DUCT · unseen · half speed', 200, 597, COLORS.chalk);
+  drawTag(ctx, 'ROUTE 3 of 3 · VENT DUCT · unseen · half speed', 290, 597, COLORS.chalk);
   ctx.fillStyle = 'rgba(233,241,255,0.35)'; ctx.font = 'bold 14px monospace'; ctx.textAlign = 'right';
   ctx.fillText(`SHEET ${state.roomIndex + 1}/3 · ${state.room.name.toUpperCase()}`, 1250, 540);
   ctx.restore();
